@@ -4,20 +4,26 @@
 <title>Calculadora</title>
 </head>
 
-<body>
+<body bgcolor=#"777777">
+<div align="center"><img src="Calculadora.png" height="250px" width="250px" /></div>
+
 <div>
-<h1 align="center">Calculadora</h1>
+<h1 align="center"><font color="0000999">Calculadora </font></h1>
 </div>
 
 <div align="center">
 <form method="post" action="calculadora.php">
-<label for="1er">Primer valor</label>
-<input type="text" name="1er" id="1er" placeholder="Ingrese valor"/>
-<br /><br />
+<label for="1er"><font color="FF0077"><b>Primer valor</b></font></label>
+<p>
+    <input type="text" name="1er" id="1er" placeholder="Ingrese valor" />
+    <br /><br />
+</p>
 
-<label for="2do">Segundo valor</label>
-<input type="text" name="2do" id="2do" placeholder="Ingrese valor"/>
-<br /><br />
+<label for="2do"><font color="FF0077"><b>Segundo valor</b></font></label>
+<p>
+    <input type="text" name="2do" id="2do" placeholder="Ingrese valor" />
+    <br /><br />
+</p>
 
 <label>Operación</label>
 <select name="operaciones">
@@ -32,6 +38,7 @@
 </form>
 </div>
 
+ 
 </body>
 
 </html>
