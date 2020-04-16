@@ -1,48 +1,47 @@
 <?php
 $valoruno=$_POST['1er'];
 $valordos=$_POST['2do'];
-$valortres=$_POST['3ro'];
+
 
 $opcion=$_POST['operaciones'];
 
+$Resultado="Su resultado es:";
+
 if($opcion == 'suma')
 {
- $valortres=($valoruno+$valordos);
+ echo $Resultado=($valoruno+$valordos);
 }
 
 else if($opcion == 'mult')
 {
- $valortres=($valoruno*$valordos);
+ echo $Resultado=($valoruno*$valordos);
 }
 
 else if($opcion == 'divs')
 {
- $valortres=($valoruno/$valordos);
+ echo $Resultado=($valoruno/$valordos);
 }
 
 else if($opcion == 'rest')
 {
- $valortres=($valoruno-$valordos);
+ echo $Resultado=($valoruno-$valordos);
 }
-
 ?>
+
 <html>
-
- <head>
-  <link rel="stylesheet" type="text/css"href="diseño.css" />
- </head>
-   <body>
-    <header>
-        <div align="center" id="RESULTADO">
-            <h1> RESULTADO</h1>
-        </div>
-    </header>
-
-    <section>
-
-        <div align="center" id="Mostrar">
-            <p> <?php echo $valortres; ?> </p>
-        </div>
-    </section>
-    </body>
+<head>
+<link rel="stylesheet" type="text/css" href="diseño.css" />
+</head>
+<body>
+<header>
+  <div align="center" id="RESULTADO">
+   <h1> RESULTADO </h1>
+ </div>
+</header>
+<section>
+ <div align="center" id="mostrar">
+    <p> <?php echo 'EL RESULTADO DE LA OPERACION ES: '.$Resultado; ?> </php>
+ </div>
+ </section>
+</body>
 </html>

@@ -1,50 +1,41 @@
-﻿html{
-    margin:50px;
-    padding:0;
-    text-align:center;
+﻿html {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
 }
+
 body {
-    background-image:url(fondo.png);
-    font:100;
-    font-family:'Viner Hand ITC',cursive;
-    padding:45px;
-    
+    background-image: url(fondo.png);
+    font: 100;
+    font-family: 'Viner Hand ITC',cursive;
+    padding: 45px;
 }
-h1{
-    font-size:60px;
-    color:#e98fd7;
-    font-weight:bolder;
-    text-decoration:blink;
+
+h1 {
+    font-size: 60px;
+    color: #e98fd7;
+    font-weight: bolder;
+    text-decoration: blink;
 }
-calculadora.png{
-    text-align:center;
-    border:5px solid white;
-    border-radius:50%;
+
+calculadora.png {
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 50%;
 }
+
 label {
     color: #a37892;
     font-weight: bolder;
-    font-size:30px;
+    font-size: 30px;
 }
+
 img {
-    height: 200px;  
+    height: 200px;
 }
+
 li {
     text-align: left;
     font-weight: bolder;
     font-size: 30px;
 }
-.datagrid table {
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
-}
-.datagrid {
-    font: normal 12px/150% Arial, Helvetica, sans-serif;
-    background: #fff;
-    overflow: hidden;
-    border: 1px solid #006699;
-}
-
-    
- 
