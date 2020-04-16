@@ -1,28 +1,48 @@
 <?php
-
 $valoruno=$_POST['1er'];
 $valordos=$_POST['2do'];
+$valortres=$_POST['3ro'];
 
 $opcion=$_POST['operaciones'];
 
 if($opcion == 'suma')
 {
- echo"El resultado de la operación es: ".($valoruno+$valordos);
+ $valortres=($valoruno+$valordos);
 }
 
 else if($opcion == 'mult')
 {
- echo"El resultado de la operación es: ".($valoruno*$valordos);
+ $valortres=($valoruno*$valordos);
 }
 
 else if($opcion == 'divs')
 {
- echo"El resultado de la operación es: ".($valoruno/$valordos);
+ $valortres=($valoruno/$valordos);
 }
 
 else if($opcion == 'rest')
 {
- echo"El resultado de la operación es: ".($valoruno-$valordos);
+ $valortres=($valoruno-$valordos);
 }
 
 ?>
+<html>
+
+ <head>
+  <link rel="stylesheet" type="text/css"href="diseño.css" />
+ </head>
+   <body>
+    <header>
+        <div align="center" id="RESULTADO">
+            <h1> RESULTADO</h1>
+        </div>
+    </header>
+
+    <section>
+
+        <div align="center" id="Mostrar">
+            <p> <?php echo $valortres; ?> </p>
+        </div>
+    </section>
+    </body>
+</html>
