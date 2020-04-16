@@ -1,46 +1,49 @@
 <html>
 
 <head>
-<title>Calculadora</title>
+    <link rel="stylesheet" type="text/css"href="diseño.css" />
+
 </head>
 
-<body bgcolor=#"00FFFF">
-    <div align="center"><img src="Calculadora.png" height="250px" width="250px" /></div>
+<body>
+<div>
+    <img src="Calculadora.png"/>
+</div>
     
-    <div>
-        <h1 align="center"><font color="0000999"><big><big>Calculadora</big></big> </font></h1>
-    </div>
+<div>
+    <h1>Calculadora</h1>
+</div>
 
-    <div align="center">
-        <form method="post" action="calculadora.php">
-            <label for="1er"><font color="FF0077"><b><big>Primer valor</big></b></font></label>
-            <p>
-                <input type="text" name="1er" id="1er" placeholder="Ingrese valor" />
-                <br /><br />
-            </p>
+<div >
+  <form method="post" action="calculadora.php">
+    <label for="1er">Primer valor</label>
+     <p>
+         <input type="text" name="1er" id="1er" placeholder="Ingrese valor" />
+         <br /><br />
+     </p>
 
-            <label for="2do"><font color="FF0077"><b>Segundo valor</b></font></label>
-            <p>
-                <input type="text" name="2do" id="2do" placeholder="Ingrese valor" />
-                <br /><br />
-            </p>
+    <label for="2do">Segundo valor</label>
+      <p>
+          <input type="text" name="2do" id="2do" placeholder="Ingrese valor" />
+          <br /><br />
+      </p>
 
-            <label>Operación</label>
-            <select name="operaciones">
-                <option value="suma">Suma</option>
-                <option value="mult">Multiplicación</option>
-                <option value="divs">División</option>
-                <option value="rest">Resta</option>
-            </select>
+     <label>Operación</label>
+        <select name="operaciones">
+           <option value="suma">Suma</option>
+           <option value="mult">Multiplicación</option>
+           <option value="divs">División</option>
+           <option value="rest">Resta</option>
+        </select>
 
             <input type="submit" value="Calcular" />
 
         </form>
-    </div>
-    <ol>
-        <li><big>Keily Solano</big></li>
-        <li><big>Maria Fernanda Garcia</big></li>
-    </ol>
+  </div>
+<ol>
+    <li>Keily Solano</li>
+    <li>Maria Fernanda Garcia</li>
+</ol>
 
 </body>
 
