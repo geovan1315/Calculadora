@@ -34,12 +34,12 @@ else if($opcion == 'rest')
 </head>
 <body>
 <header>
-  <div align="center" id="RESULTADO">
-   <h1> RESULTADO </h1>
+  <div align="center" id="Titulo">
+   <h1> RESPUESTA </h1>
  </div>
 </header>
 <section>
- <div align="center" id="mostrar">
+ <div align="center" id="Resultado">
     <p> <?php echo 'EL RESULTADO DE LA OPERACION ES: '.$Resultado; ?> </php>
  </div>
  </section>
